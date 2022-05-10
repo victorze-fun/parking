@@ -6,24 +6,24 @@ Aplicación de gestión y control para estacionamientos
 
 ## Requerimientos
 
-- `Python 3.8` o superior
+`Python 3.8` o superior
 
 ## Instalación
 
-- Clonar el repositorio
+Clonar el repositorio
 ```bash
 git clone https://github.com/victorze/parking.git
 cd parking
 ```
 
-- Crear y activar un entorno virtual
+Crear y activar un entorno virtual
 ```bash
 python -m venv venv
 source venv/bin/activate  # linux
 venv\Scripts\activate     # windows
 ```
 
-- Instalar Flask
+Instalar Flask
 ```bash
 pip install Flask
 ```
