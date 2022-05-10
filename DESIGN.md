@@ -25,4 +25,23 @@ donde registramos la hora de salida del vehículo y el costo del servicio.
 - `/report`: Muestra la relación de vehículos  filtrados por un rango de tiempo.
 
 ## Esquema de datos
-https://youtu.be/NtMvNh0WFVM?t=1154
+
+### entries
+
+|||
+| ------------- |------------|
+| id          | primary key   |
+| placa       | varchar       |
+| vehicle     | varchar       |
+| start       | timestamp     |
+| exit        | timestamp     |
+| price       | decimal       |
+
+### rates
+
+|||
+| ------------- |------------|
+| id          | primary key  |
+| price_per_hour | decimal    |
+| round       | int (minutes) |
+| tolerance   | int (minutes) |
