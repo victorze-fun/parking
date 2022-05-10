@@ -23,3 +23,6 @@ donde registramos la hora de salida del vehículo y el costo del servicio.
 (en minutos minutos) y el tiempo de tolerancia (en minutos).
 
 - `/report`: Muestra la relación de vehículos  filtrados por un rango de tiempo.
+
+## Esquema de datos
+https://youtu.be/NtMvNh0WFVM?t=1154
