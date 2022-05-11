@@ -3,7 +3,7 @@
 Como dueño de un estacionamiento yo quiero...
 
 - ...poder registrar el ingreso de un vehículo.
-- ...poder registrar la salida de un vehículo y cobrar el costo del servicio.
+- ...poder registrar la salida de un vehículo y cobrar por el servicio.
 - ...poder ingresar el costo por hora, el redondeo y el tiempo de tolerancia.
 - ...poder ver un reporte por rango de tiempo, y poder filtrar por placa.
 - ...(opcional) poder imprimir el ticket de ingreso y salida.
@@ -32,7 +32,7 @@ donde registramos la hora de salida del vehículo y el costo del servicio.
 | ------------- |------------|
 | id          | primary key   |
 | placa       | varchar       |
-| vehicle     | varchar       |
+| description | varchar       |
 | start       | timestamp     |
 | exit        | timestamp     |
 | price       | decimal       |
