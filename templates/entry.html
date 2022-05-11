@@ -1,6 +1,8 @@
 {% extends 'layout.html' %}
 
-{% block title %} Salida de vehículo {% endblock %}
+{% block header %}
+  <h1>{% block title %} Salida de vehículo {% endblock %}</h1>
+{% endblock %}
 
 {% block content %}
     <form action="/entry" method="POST">
