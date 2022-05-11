@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+form {
+    width: 25rem;
+    margin: 0 auto;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 ;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    width: 7rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

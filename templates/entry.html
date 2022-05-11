@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block title %} Salida de vehículo {% endblock %}
+
+{% block content %}
+    <form action="/entry" method="POST">
+        <div class="input-group">
+            <label for="placa">Placa de vehículo</label>
+            <input type="text" name="placa" placeholder="Placa" id="placa">
+        </div>
+        <div class="input-group">
+            <label for="description">Descripción de vehículo</label>
+            <input type="text" name="description" placeholder="Descripción" id="description">
+        </div>
+        <div class="input-group">
+            <label for="start">Placa del vehículo</label>
+            <input type="text" name="start" id="start" disabled>
+        </div>
+
+        <button>Registrar</button>
+    </form>
+
+    <script>
+        const start = document.querySelector('#start')
+        start.value = new Date().toLocaleString()
+        setInterval(() => start.value = new Date().toLocaleString(), 1000)
+    </script>
+{% endblock %}
