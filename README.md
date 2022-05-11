@@ -20,7 +20,6 @@ Crear y activar un entorno virtual
 ```bash
 python -m venv venv
 source venv/bin/activate  # linux
-venv\Scripts\activate     # windows
 ```
 
 Instalar Flask
@@ -31,5 +30,6 @@ pip install Flask
 ## Ejecución
 
 ```bash
+export FLASK_ENV=development
 flask run
 ```
